@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './friendlist.css';
 
 export const FriendList = ({ data }) => {
   return (
@@ -9,13 +10,15 @@ export const FriendList = ({ data }) => {
           <li className="item" key={id}>
             {/* <span className="status">{isOnline ? 'Online' : 'Offline'}</span> */}
             {isOnline ? (
-              <span className="status" style={{ color: 'green' }}>
-                Online
-              </span>
+              <span
+                className="status"
+                style={{ backgroundColor: 'green' }}
+              ></span>
             ) : (
-              <span className="status" style={{ color: 'red' }}>
-                Offline
-              </span>
+              <span
+                className="status"
+                style={{ backgroundColor: 'red' }}
+              ></span>
             )}
 
             <img className="avatar" src={avatar} alt="User avatar" width="48" />

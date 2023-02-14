@@ -1,0 +1,34 @@
+.statistics {
+  margin-top: 25px;
+  background-color: lightgoldenrodyellow;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.stat-list {
+  display: flex;
+}
+
+.stat-list > .item {
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+}
+.stat-list > .item:nth-child(2n + 1) {
+  background-color: lightgrey;
+}
+
+.percentage {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 5px;
+}
