@@ -9,7 +9,11 @@ export const Statistics = ({ title, data }) => {
         {data.map(item => {
           const { id, label, percentage } = item;
           return (
-            <li className={css.item} key={id}>
+            <li
+              className={css.item}
+              key={id}
+              style={{ backgroundColor: `#${getRandomColor()}` }}
+            >
               <span className={css.label}>{label} </span>
               <span className={css.percentage}>{percentage}%</span>
             </li>
@@ -30,3 +34,7 @@ Statistics.propTypes = {
     })
   ),
 };
+function getRandomColor() {
+  console.log(Math.floor(Math.random() * 16777215).toString(16));
+  return Math.floor(Math.random() * 16777215).toString(16);
+}

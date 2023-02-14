@@ -52,11 +52,11 @@ li {
   border-radius: 5px;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  width: 125px;
+  width: 145px;
   text-align: center;
 }
 
-.stats > li > .quantity {
+.quantity {
   font-size: 26px;
   font-weight: 500;
 }
