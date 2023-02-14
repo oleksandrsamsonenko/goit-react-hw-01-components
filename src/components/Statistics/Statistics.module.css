@@ -13,17 +13,17 @@
   font-weight: 600;
 }
 
-.stat-list {
+.stat_list {
   display: flex;
 }
 
-.stat-list > .item {
+.item {
   width: 20%;
   font-size: 20px;
   text-align: center;
   background-color: grey;
 }
-.stat-list > .item:nth-child(2n + 1) {
+.item:nth-child(2n + 1) {
   background-color: lightgrey;
 }
 

@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
 }
-.user-avatar {
+.avatar {
   background-color: white;
   margin-top: 25px;
   width: 225px;
@@ -29,7 +29,7 @@ li {
   flex-direction: column;
   background-color: #fff;
 }
-.username {
+.name {
   margin-top: 15px;
   font-size: 45px;
   font-family: 'Montserrat', sans-serif;

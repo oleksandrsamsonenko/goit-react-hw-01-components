@@ -4,27 +4,21 @@
   border-radius: 15px;
   padding: 5px;
 }
-.friend-list {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-}
 
-.friend-list > .item {
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
-  background-color: lightgray;
-  padding: 5px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.status {
+.online {
   min-width: 25px;
   min-height: 25px;
   border-radius: 50%;
   margin-left: 10px;
+  background-color: green;
+}
+
+.offline {
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: red;
 }
 
 .name {
