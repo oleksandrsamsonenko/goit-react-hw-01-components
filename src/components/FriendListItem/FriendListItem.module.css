@@ -12,19 +12,11 @@
 }
 .online {
   composes: status;
-  /* min-width: 25px;
-  min-height: 25px;
-  border-radius: 50%;
-  margin-left: 10px; */
   background-color: green;
 }
 
 .offline {
   composes: status;
-  /* min-width: 25px;
-  min-height: 25px;
-  border-radius: 50%;
-  margin-left: 10px; */
   background-color: red;
 }
 
