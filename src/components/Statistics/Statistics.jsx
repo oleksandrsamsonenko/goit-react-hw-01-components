@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
+import { getRandomColor } from 'utils/RandomColor';
 
 export const Statistics = ({ title, data }) => {
   return (
@@ -34,6 +35,3 @@ Statistics.propTypes = {
     })
   ),
 };
-function getRandomColor() {
-  return Math.floor(Math.random() * 16777215).toString(16);
-}

@@ -27,3 +27,13 @@
   text-align: center;
   font-weight: 600;
 }
+
+.item {
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}

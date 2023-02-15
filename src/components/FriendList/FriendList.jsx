@@ -7,13 +7,12 @@ export const FriendList = ({ data }) => {
     <ul className={css.friend_list}>
       {data.map(element => {
         return (
-          <li className={css.item} key={element.id}>
-            <FriendListItem
-              avatar={element.avatar}
-              name={element.name}
-              isOnline={element.isOnline}
-            />
-          </li>
+          <FriendListItem
+            key={element.id}
+            avatar={element.avatar}
+            name={element.name}
+            isOnline={element.isOnline}
+          />
         );
       })}
     </ul>
